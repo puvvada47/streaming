@@ -25,6 +25,9 @@ object csvCheckRDD {
 
 
 
+
+
+
    /*
     if partitions on RDD are 2
     then if we do coalesce(4) leading to nothing happens and still no of partitions will be 2
