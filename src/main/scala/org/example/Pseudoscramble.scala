@@ -1,7 +1,6 @@
 package org.example
 import org.apache.spark.sql._
 import org.apache.spark.sql.functions._
-import com.daimler.nbx.pseudo.lib.handler.TextHandler
 import java.sql.Timestamp
 
 class Pseudoscramble(inputdf: DataFrame, pseudocols: List[String], scramblecols: List[Map[String, Any]], deletecols: List[String]) {
